@@ -91,12 +91,12 @@ function Referral() {
             </div>
             <div className="referral_slider-percent">
               <span>
-                {round(referral.owner_percent, 1)}% /{" "}
-                {round(referral.referral_percent, 1)}%
+                {round(referral.owner_percent, 1) | 0}% /{" "}
+                {round(referral.referral_percent, 1) | 0}%
               </span>
               <span>
-                {round(referral.referral_percent, 1)}% /{" "}
-                {round(referral.owner_percent, 1)}%
+                {round(referral.referral_percent, 1) | 0}% /{" "}
+                {round(referral.owner_percent, 1) | 0}%
               </span>
             </div>
             <Slider changeReferral={(e) => changeReferral(e)} />
