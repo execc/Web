@@ -132,7 +132,7 @@ function Referral() {
         <div>
           <h3 className="referral-table__title">Referrals</h3>
           <div className="table-wrapper">
-            <table className="table table-account">
+            <table className="table table-account table-referral">
               <HeaderTableRefaral />
               {referral &&
                 referalsList &&
